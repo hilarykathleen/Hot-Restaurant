@@ -14,7 +14,7 @@ $.ajax({url: currentURL + "/api/tables", method: "GET"})
 					$('#tableSection').append(tableSection);
 					var tableNumber = i + 1;
 // Then display the remaining fields in the HTML (Section Name, Date, URL)
-					$("#tableWell-"+ i+1).append('<h2><span class="label label-primary">' + tableNumber + "</span> | " + tableData[i].customerID + "</h2>");
+					$("#tableWell-"+ i+1).append('<h2>' + tableNumber + "</span> | " + tableData[i].customerID + "</h2>");
 				}
 			});
 		}
@@ -30,7 +30,7 @@ $.ajax({url: currentURL + "/api/tables", method: "GET"})
 					$('#waitlistSection').append(waitlistSection);
 					var tableNumber = i + 1;
 // (Section Name, Date, URL)
-					$("#waitlistWell-"+ i+1).append('<h2><span class="label label-primary">' + tableNumber + "</span> | " + waitlistData[i].customerID + "</h2>");
+					$("#waitlistWell-"+ i+1).append('<h2>' + tableNumber + "</span> | " + waitlistData[i].customerID + "</h2>");
 				}
 			});
 		}
@@ -42,7 +42,7 @@ function clearTable(){
 	$("#clear").on('click', function(){
 		alert("cleared");
 		clearTable();
-		// Refresh 
+// Refresh 
 		location.reload();
 	})
 // Run Queries!
