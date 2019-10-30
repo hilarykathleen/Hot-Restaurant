@@ -1,0 +1,19 @@
+{
+  "name": "hot-restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hotRestaurant.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hilarykathleen/Hot-Restaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hilarykathleen/Hot-Restaurant/issues"
+  },
+  "homepage": "https://github.com/hilarykathleen/Hot-Restaurant#readme"
+}
